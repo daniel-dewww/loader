@@ -1,0 +1,60 @@
+/*LOADER*/
+#loader{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:url(../img/bg-guisado.jpg) #252525;
+	z-index:9999;
+	left:0;
+	top:0;}
+#loader .num{
+	position:absolute;
+	width:100px;
+	height:50px;
+	color:#cca36e;
+	opacity:0.5;
+	font-size:2.5em;
+	font-family:'DINpro-b';
+	overflow:hidden;
+	letter-spacing:0.1em;
+	text-align:center;
+	top:50%;
+	margin-top:-10px;
+	left:0px;
+	transition:all ease-out 0.6s;
+	-webkit-transition:all ease-out 0.6s;
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+#loader i{
+	width:100%;
+	height:6px;
+	position:absolute;
+	top:0;
+	/*left:64px;*/
+	background:#676767;
+}
+#loader i .per{
+	height:100%;
+	width:0;
+	bottom:0;
+	left:0;
+	background:#ba9565;
+	position:absolute;
+	transition:all ease-out 0.3s;
+	-webkit-transition:all ease-out 0.3s;
+}
+#inicio{overflow:hidden
+}
+#inicio .wp{
+	width:100%;
+	max-width:970px;
+	position:relative;
+	z-index:3;
+	margin:auto;
+	padding:8% 60px;
+	transition:ease-out 0.5s all;
+	-webkit-transition:ease-out 0.5s all;
+	left:-80px;
+	opacity:0;
+}
